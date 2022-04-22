@@ -17,17 +17,15 @@ function replacement(range) {
   let result = []; 
   for (let i = 0; i <= input.length -1; i++) {
     if (input[i].toString().includes("3")) {
-      result.push(three); 
-      console.log(result); 
+      result.push(three);
     } else if (input[i].toString().includes("2")) {
       result.push(two); 
-      console.log(result); 
     } else if (input[i].toString().includes("1")) {
       result.push(one); 
-      console.log(result);
     } else {
       result.push(input[i]); 
-      console.log(result);
     }
   }
+  console.log(typeof result[1]);
+  return result; 
 }
