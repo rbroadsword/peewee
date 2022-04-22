@@ -14,7 +14,9 @@ function replacement(range) {
   let one = "beep"; 
   let two = "boop"; 
   let three = "won't you be my neighbor?";
-  let result = []; 
+  let result = [];
+  let showResult = result;
+  console.log(showResult);
   for (let i = 0; i <= input.length -1; i++) {
     if (input[i].toString().includes("3")) {
       result.push(three);
@@ -26,8 +28,7 @@ function replacement(range) {
       result.push(input[i]); 
     }
   }
-  console.log(typeof result[1]);
-  return result; 
+  return showResult;
 }
 
 //UI
