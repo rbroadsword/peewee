@@ -15,8 +15,6 @@ function replacement(range) {
   let two = "boop"; 
   let three = "won't you be my neighbor?";
   let result = [];
-  let showResult = result;
-  console.log(showResult);
   for (let i = 0; i <= input.length -1; i++) {
     if (input[i].toString().includes("3")) {
       result.push(three);
@@ -28,7 +26,7 @@ function replacement(range) {
       result.push(input[i]); 
     }
   }
-  return showResult;
+  return result;
 }
 
 //UI
@@ -39,6 +37,7 @@ $(document).ready(function() {
     const userNumber = $("#user-number").val();
     const numberRange = range(userNumber); 
     const result = replacement(numberRange);
-    $("#result").html(result);
+    const showResult = result.join(', '); 
+    $("#result").html(showResult);
   })
 })
