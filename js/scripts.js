@@ -31,3 +31,12 @@ function replacement(range) {
 }
 
 //UI
+
+$(document).ready(function() {
+  $("form#number-form").submit(function(event) {
+    event.preventDefault();
+    const userNumber = $("#user-number").val(); //this works
+    const numberRange = range(userNumber); 
+    const result = replacement(numberRange);
+  })
+})
