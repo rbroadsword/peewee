@@ -8,3 +8,7 @@ function range(number) {
   }
   return range; 
 }
+
+function replacement(range) {
+  
+}
