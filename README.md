@@ -8,7 +8,11 @@ Expected Output: [0, 1, 2, 3, 4, 5];
 
 Describe: replacement(range)
 
-Test: "it will return "beep" for 1"
-Code: replacement(1); 
+Test: "it will return "beep" for a number with a 1 in it"
+Code: replacement([1]); 
 Expected Output: "beep"
+
+Test: "It will return "boop" for a number that has a 2 in it."
+Code: replacement([2]);
+Expected Output: "boop"
 
