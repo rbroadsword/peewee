@@ -24,6 +24,13 @@ body {
       -16px 25px 0 #4b0082,
       -20px 30px 0 #9400d3;
 }
+.intro img {
+  margin: 3rem;
+}
+.border {
+  border-image: linear-gradient(to right, red 20%, green 20%, green 40%, blue 40%, blue 60%, maroon 60%, maroon 80%, chocolate 80%);
+  border-image-slice: 1;
+}
 .main {
   min-height: 40vh;
   text-align: center;
