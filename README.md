@@ -31,3 +31,7 @@ Expected Output: "Won't you be my neighbor"
 Test 6: "It will return the number if the number does not include a 1, 2, or 3"
 Code: replacement([4]);
 Expected Output: 4
+
+Test 7: "It will return an array with multiple numbers, and numbers changed if it includes a 1, 2, or 3"
+Code: replacement([1, 2, 3, 4]);
+Expected Output: "beep", "boop", "won't you be my neighbor", 4
