@@ -35,8 +35,9 @@ function replacement(range) {
 $(document).ready(function() {
   $("form#number-form").submit(function(event) {
     event.preventDefault();
-    const userNumber = $("#user-number").val(); //this works
+    const userNumber = $("#user-number").val();
     const numberRange = range(userNumber); 
     const result = replacement(numberRange);
+    $("#result").html(result);
   })
 })
