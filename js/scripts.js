@@ -25,6 +25,9 @@ function replacement(range) {
     } else if (input[i].toString().includes("1")) {
       result.push(one); 
       console.log(result);
+    } else {
+      result.push(input[i]); 
+      console.log(result);
     }
   }
 }
