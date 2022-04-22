@@ -29,3 +29,5 @@ function replacement(range) {
   console.log(typeof result[1]);
   return result; 
 }
+
+//UI
