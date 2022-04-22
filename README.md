@@ -27,3 +27,7 @@ Expected Output: "Won't you be my neighbor"
 Test 5: "It will return "won't you be my neighbor" for a number that includes both a 3 and 1 or 3 and 2"
 Code: replacement([13]);
 Expected Output: "Won't you be my neighbor"
+
+Test 6: "It will return the number if the number does not include a 1, 2, or 3"
+Code: replacement([4]);
+Expected Output: 4
