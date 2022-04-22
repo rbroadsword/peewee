@@ -5,6 +5,7 @@
 }
 body {
   background: violet;
+  font-family: 'Mali', cursive;
 }
 .intro {
   min-height: 30vh;
