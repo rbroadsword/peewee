@@ -10,5 +10,13 @@ function range(number) {
 }
 
 function replacement(range) {
-  
+  let input = range; 
+  let one = "beep"
+  let result = []; 
+  for (let i = 0; i <= input.length -1; i++) {
+    if (input[i].toString().includes("1")) {
+      result.push(one); 
+      console.log(result); 
+    }
+  }
 }
