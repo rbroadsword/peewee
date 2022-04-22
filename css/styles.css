@@ -28,8 +28,14 @@ body {
   margin: 3rem;
 }
 .border {
-  border-image: linear-gradient(to right, red 20%, green 20%, green 40%, blue 40%, blue 60%, maroon 60%, maroon 80%, chocolate 80%);
-  border-image-slice: 1;
+  border: 1rem solid #ff0000;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 2rem #ff0000,
+      2px 2px 3rem #ff7f00,
+      4px 4px 4rem #ffff00,
+      6px 6px 5rem #00ff00,
+      8px 8px 6rem #0000ff,
+      10px 10px 7rem #4b0082;
 }
 .main {
   min-height: 40vh;
