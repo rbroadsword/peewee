@@ -20,3 +20,7 @@ Test 3: "It will return "boop" for a number with both a 1 and 2 in it."
 Code: replacement([12]); 
 Expected Output: "boop"
 
+Test 4: "It will return "won't you be my neighbor" for a number with a 3 in it"
+Code: replacement([3]);
+Expected Output: "Won't you be my neighbor"
+
