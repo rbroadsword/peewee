@@ -48,6 +48,24 @@ body {
 .main label {
   font-size: 1.5rem;
 }
+.main input {
+  width: 15rem;
+  margin: auto;
+}
 .result {
   text-align: center;
 }
+.result p {
+  width: 30rem;
+  margin: auto;
+  font-style: italic;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.result img {
+  max-width: 50%;
+  height: auto;
+  margin: 2rem;
+}
+
+
